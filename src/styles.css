@@ -68,6 +68,18 @@ h1 span {
   flex: 1 1 0%;
 }
 
+.content h1 {
+/*   font: 800 48px var(--primary-text); */
+  font-weight: 800;
+  font-size: 48px;
+  color: var(--primary-text);
+}
+
+.content p {
+  font-size: 18px;
+  color: var(--secondary-text);
+}
+
 ul li {
     padding: 0 2rem;
 }
