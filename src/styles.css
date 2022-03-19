@@ -1,9 +1,58 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;0,800;1,300&display=swap');
+
+/* Variables | colors */
+
 :root {
-    
+    --primary-bg: #1F2937;
+    --white-bg: #fff;
+    --primary-text: #f9faf8;
+    --secondary-text: #e5e7eb;
+    --btn-primary: #3882f6;
 }
 
+/* typography */
+/*  main heading = 48px extra-bold
+    secondary text = 18px 
+    logo = 24px
+    info header = 36px extra-bold
+    quote text = 36px light italic (primary BG color)
+*/
+
+/* reset */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.top-container {
+    background: var(--primary-bg);
+    width: 100vw;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar {
+    justify-content: space-between;
+}
+
+.nav-right h1 {
+    color: var(--primary-text);
+}
+
+.nav-left ul {
+    justify-content: space-between;
+}
+
+li {
+    list-style-type: none;
 }
