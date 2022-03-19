@@ -30,6 +30,8 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+/* Navbar */
+
 .top-container {
     background: var(--primary-bg);
     width: 100vw;
@@ -51,9 +53,19 @@ body {
     color: var(--primary-text);
 }
 
+h1 span {
+    color: var(--btn-primary);
+}
+
+.navbar a:hover {
+    color: var(--btn-primary);
+}
+
 ul li {
     padding: 0 2rem;
 }
+
+/* Basic setups */
 
 li {
     list-style-type: none;
